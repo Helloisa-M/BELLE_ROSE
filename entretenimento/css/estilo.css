@@ -124,8 +124,8 @@ font-size: 30px;
 }
 .categoria img{
     float: right;
-    width: 408px;
-    height: 507px;
+    width: 60%;
+    height: 100%;
     
 }
 .categoria h4{
@@ -135,7 +135,7 @@ font-size: 30px;
 .categoria p{
     text-align: justify;
     font-size: 20px;
-    width: 550px;
+    width: 100%;
     
     
 }
@@ -228,3 +228,51 @@ button:hover {
 .redes{
     margin-left: 30px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .categoria{
+        width: 100%;
+        gap: 5px;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .textos{
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .navbar ul li {
+        display: inline;
+        margin: 0 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    .categorias h3{
+        margin-left: 0px;
+    }
+    .categoria img{
+        width: 100%;
+    }
+   .frase{
+    margin-left: 0px;
+    margin-right: 0px;
+   }
+   .spans{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    
+   }
+   .introducao h2{
+    font-size: 50px;
+    margin-left: 10px;
+    position: static;
+    margin-top: 0px;
+    
+}
+.introducao {
+    flex-wrap: wrap;
+}
+  }
