@@ -52,7 +52,7 @@ a{
 }
 .introducao {
     text-align: center;
-    background-color: #fff5f5;
+    background-color: #ffdef4;
     margin-bottom: 50px;
     display: flex;
     align-items: center;
@@ -87,7 +87,7 @@ a{
 
 
 .frase{
-    background-color: #fff5f5;
+    background-color: #f3ccc3;
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 50px;
