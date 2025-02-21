@@ -1,0 +1,326 @@
+.header{
+    text-align: center;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.navbar{
+    margin-bottom: 5px;
+    background-color: #fdfdfd;
+    padding: 15px 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 40px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3 ease;
+}
+
+
+.navbar ul li a:hover{
+    color: #f2b3cd;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF5F5;
+    text-align: center;
+    flex-wrap: wrap;
+
+    
+}
+#img_rodape{
+    width: 100%;
+    
+}
+
+
+.rodape {
+    padding: 0 20px;
+    margin: auto;
+   
+}
+
+.linha-vertical {
+    width: 1.5px;
+    height: 100px; 
+    background-color: #000; 
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.rodape button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: #3d4042;
+}
+
+.interacao{
+    font-size: 15px;
+    text-align: justify;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.frase{
+    background-color: #FFF5F5;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    gap: 100px;
+    color: #707070;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.644);
+}
+
+#muda{
+    margin-right: 400px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+#muda p{
+    margin: 0px;
+}
+
+.titulo{
+    width: 60%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 30px auto;
+    text-align: center;
+    height: 50px;
+    border: 1px solid black;
+    background-color: #FFF5F5;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.644);
+}
+
+.titulo h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+
+.lado{
+    background-color: #FFF5F5;
+    display: flex;
+    gap: 70px;
+}
+
+.checklist{
+    padding: 30px;
+}
+
+.abaixo{
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    color: #707070;
+    font-weight: bold;
+
+}
+
+.abaixo p{
+    margin: 10px;
+}
+
+.dife{
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.bife{
+    margin-left: 200px;
+    margin-top: 0px;
+}
+
+.dife h2{
+    color: #F3CCC3;
+    margin-bottom: 0px;
+
+}
+
+.bife p{
+    color: #F3CCC3;
+    margin-top: 0px;
+    
+}
+
+.vidasaudavel{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    background-color: #FFF5F5;
+    border: 1px solid black;
+
+}
+
+.tbm{
+    display: block;
+    margin-top: 50px;
+    margin-left: 270px;
+}
+
+.tbm h2{
+    margin-top: -10px;
+}
+
+.nutricao{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    background-color: #FFF5F5;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.nutri{
+    display: block;
+    margin-top: 50px;
+    margin-left: 270px;
+}
+
+.nutri h2{
+    margin-top: -10px;
+
+}
+
+.mente{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    background-color: #FFF5F5;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.gato{
+    display: block;
+    margin-top: 50px;
+    margin-left: 270px;
+}
+
+.gato h2{
+    margin-top: -10px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+
+    .frase {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+    }
+
+    .lado {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .vidasaudavel, .nutricao, .mente {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .tbm, .nutri, .gato {
+        margin-left: 0;
+    }
+
+    .titulo {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .rodape {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .rodape button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .frase {
+        font-size: 20px;
+        gap: 10px;
+    }
+
+    .vidasaudavel, .nutricao, .mente {
+        gap: 20px;
+    }
+
+    .navbar ul li a {
+        font-size: 16px;
+    }
+
+    .titulo {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .lado {
+        gap: 20px;
+    }
+
+    .checklist {
+        padding: 20px;
+    }
+
+    .bife, .dife {
+        margin-left: 0;
+    }
+
+    .gato, .tbm, .nutri {
+        margin-left: 0;
+    }
+}

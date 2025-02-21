@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+}
+.header{
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.navbar{
+    background-color: #fdfdfd;
+    padding: 15px 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #0e0d0d;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3 ease;
+}
+.navbar ul li a:hover{
+    color: #f2b3cd;
+}
+
+.section{
+    background-color: #fff5f5;
+    width: 100%;
+    height: 450px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.introducao {
+    text-align: center;
+    background-color: #fff5f5;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.introducao h2{
+    font-size: 70px;
+    margin-top: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    position: absolute;
+    
+}
+.introducao span{
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.spans{
+    position: relative;
+    margin-left: 280PX;
+    margin-top: -80px;
+}
+
+.introducao img{
+    width: 500px;
+    height: 400px;
+}
+
+
+
+.frase{
+    background-color: #fff5f5;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgba(66, 65, 65, 0.795) ;
+    
+}
+.frase p {
+margin-left: 50px;
+margin-right: 50px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+}
+
+
+.categorias {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.categorias h3{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-self: flex-start;
+    text-align: left;
+    margin-left: 300PX;
+}
+.categoria img{
+    float: right;
+    width: 408px;
+    height: 507px;
+    
+}
+.categoria h4{
+    font-size: 20px;
+    text-align: start;
+}
+.categoria p{
+    text-align: justify;
+    font-size: 20px;
+    width: 550px;
+    
+    
+}
+.categoria {
+    display: flex;
+    width: 1200px;
+    height: 507px;
+    background: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.644);
+    text-align: center;
+    text-align: center;
+    align-items: flex-start;
+    gap: 205px;
+    
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+
+.categoria button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF5F5;
+    text-align: center;
+    flex-wrap: wrap;
+
+    
+}
+#img_rodape{
+    width: 100%;
+    
+}
+
+
+.rodape {
+    padding: 0 20px;
+    margin: auto;
+   
+}
+
+.linha-vertical {
+    width: 2px;
+    height: 100px; 
+    background-color: #000; 
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.rodape button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: #3d4042;
+}
+
+.interacao{
+    font-size: 15px;
+    text-align: justify;
+}
+.redes img{
+    width: 35px;
+    height: 25px;
+}
+.redes{
+    margin-left: 30px;
+}
