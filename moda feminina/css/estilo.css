@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: white;
+    overflow-x: hidden;
 }
 .header{
     text-align: center;
@@ -43,6 +44,8 @@ a{
     color: black;
     text-decoration: none;
 }
+
+
 section{
     background-color: #fff5f5;
     width: 100%;
@@ -51,6 +54,7 @@ section{
     border: 1px solid black;
     box-shadow: 5px 5px 10px rgba(87, 83, 83, 0.5);
 }
+
 .subtexto {
     display: flex;
     justify-content: center;
@@ -74,21 +78,23 @@ section{
     justify-content: space-between;
     margin: 0 auto;
 }
-h1 {
+.text-mf h1{
     font-size: 75px;
     font-weight: bold;
     margin-left: 85px;
 }
-h1 span {
+.text-mf h1 span{
     display: inline-block; /* Faz com que o <span> se comporte como um bloco, mas ainda permita o alinhamento */
 }
-.img1{
+.modaf img{
     order: 2;
 }
-.img1 img{
+.modaf img{
     width: 800px;
     height: auto;
 }
+
+
 
 .guarda-roupa{
     background-color: #F3CCC3;
@@ -138,37 +144,36 @@ h1 span {
 
 
 .sofisticada{
-    width: 100%;
     height: 400px;
     display: flex;
     padding-top: 0;
-    border: 1px solid black;
-    box-shadow: 5px 5px 10px rgba(87, 83, 83, 0.5);
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
     margin-top: 60px;
 }
 
 .sofisticada-img img{
     width: 800px;
     height: 400px;
-    margin-left: 713px;
 }
 
 .sofisticada-img{
     order: 2;
-    
 }
 .sub-sofisticada h2{
     font-size: 16px;
     display: flex;
     position: absolute;
-    margin-left: 100px;
-    margin-top: 150px;
+    margin-left: 64px;
+    margin-top: -45px;
 }
 .sofisticada h1{
     font-size: 25px;
-    margin-left: 100px;
-    margin-top: 175px;
+    margin-left: 60px;
+    margin-top: 70px;
     position: absolute;
+    color: #444;
 }
 
 
@@ -178,8 +183,7 @@ h1 span {
     height: 400px;
     display: flex;
     padding-top: 0;
-    border: 1px solid black;
-    box-shadow: 5px 5px 10px rgba(87, 83, 83, 0.5);
+    
     margin-top: 60px;
 }
 
@@ -221,7 +225,6 @@ h1 span {
 .look-bege{
     width: 550px;
     height: 500px;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -235,6 +238,7 @@ h1 span {
 }
 .container{
     display: flex;
+    justify-content: center
 }
 
 .look1 img{
@@ -261,13 +265,13 @@ h1 span {
 }
 .container2{
     display: flex;
+    justify-content: center;
 }
 
 .look2 img{
     width: 550px;
     height: 500px;
     order: 2;
-    
 }
 
 
@@ -275,7 +279,6 @@ h1 span {
 .look-mistura{
     width: 550px;
     height: 500px;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -289,6 +292,7 @@ h1 span {
 }
 .container3{
     display: flex;
+    justify-content: center;
 }
 
 .look3 img{
@@ -315,33 +319,25 @@ h1 span {
 }
 .container4{
     display: flex;
+    justify-content: center;
 }
 
 .look4 img{
     width: 550px;
     height: 500px;
     order: 2;
-    
 }
 
 
 .look-bandana{
     width: 550px;
     height: 500px;
-    
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.conteiners {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-}
+
 .bandana-img img{
     width: 470px;
     height: 400px;
@@ -349,6 +345,7 @@ h1 span {
 }
 .container5{
     display: flex;
+    justify-content: center;
 }
 
 .look5 img{
@@ -402,19 +399,18 @@ h1 span {
 
 
 .romantica{
-    width: 100%;
     height: 400px;
     display: flex;
     padding-top: 0;
-    border: 1px solid black;
-    box-shadow: 5px 5px 10px rgba(87, 83, 83, 0.5);
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
     margin-top: 60px;
 }
 
 .romantica-img img{
     width: 800px;
     height: 400px;
-    margin-left: 713px;
 }
 
 .romantica-img{
@@ -424,13 +420,13 @@ h1 span {
     font-size: 16px;
     display: flex;
     position: absolute;
-    margin-left: 100px;
-    margin-top: 150px;
+    margin-left: 64px;
+    margin-top: -45px;
 }
 .romantica h1{
     font-size: 25px;
-    margin-left: 100px;
-    margin-top: 175px;
+    margin-left: 60px;
+    margin-top: 40px;
     position: absolute;
     color: #444;
 }
@@ -467,12 +463,12 @@ h1 span {
 
 
 .esportivo{
-    width: 100%;
     height: 400px;
     display: flex;
     padding-top: 0;
-    border: 1px solid black;
-    box-shadow: 5px 5px 10px rgba(87, 83, 83, 0.5);
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
     margin-top: 60px;
 }
 
@@ -490,12 +486,12 @@ h1 span {
     display: flex;
     position: absolute;
     margin-left: 100px;
-    margin-top: 150px;
+    margin-top: -45px;
 }
 .esportivo h1{
     font-size: 25px;
     margin-left: 100px;
-    margin-top: 175px;
+    margin-top: 60px;
     position: absolute;
     color: #444;
 }
