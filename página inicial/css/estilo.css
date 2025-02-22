@@ -61,7 +61,7 @@ a{
 
 .galeria{
     display: flex;
-    margin-left: 150px;
+    justify-content: center;
     margin-top: 30px;
     gap: 20px;
 }
@@ -130,7 +130,7 @@ a{
 
 .galeria2{
     display: flex;
-    margin-left: 150px;
+    justify-content: center;
     margin-top: 30px;
     gap: 20px;
 }
@@ -235,6 +235,7 @@ a{
     display: flex;
     justify-content: center;
     gap: 40px;
+    margin-bottom: 60px;
 }
 .ut section{
     width: 275px;
@@ -256,6 +257,9 @@ a{
 
 .ut h2{
     font-size: 18px;
+}
+.ut span{
+    color: #000;
 }
 .filme1{
     margin-left: 35px;
@@ -347,7 +351,7 @@ a{
 
 .conhecimento{
     background-color: #FFF5F5;
-    margin-top: 25px;
+    margin-top: 60px;
     padding: 25px;
     font-size: 22px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -357,7 +361,7 @@ a{
 
 }
 
-span{
+.conhecimento span{
     color: #B827B6;
 }    
     
