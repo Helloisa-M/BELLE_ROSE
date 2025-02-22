@@ -324,8 +324,10 @@ a{
     margin-bottom: 30px;
 }
 
+
+
 .frase{
-    background-color: #FFF5F5;
+    background-color: #ffdef4;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -350,9 +352,10 @@ a{
 }
 
 .conhecimento{
-    background-color: #FFF5F5;
-    margin-top: 60px;
-    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffdef4;
+    margin-top: 25px;
     font-size: 22px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #575656;
@@ -361,25 +364,15 @@ a{
 
 }
 
+.conhecimento p{
+    margin-right: 80px;
+    margin-top: 120px;
+}
+
 .conhecimento span{
-    color: #B827B6;
-}    
+    color:#B827B6;
+}
     
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
