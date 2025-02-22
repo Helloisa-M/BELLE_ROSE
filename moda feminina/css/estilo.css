@@ -92,6 +92,7 @@ section{
 .modaf img{
     width: 800px;
     height: auto;
+    margin-bottom: 5px;
 }
 
 
@@ -129,14 +130,14 @@ section{
 .casual h1{
     font-size: 25px;
     margin-top: 175px;
-    margin-left: 100px;
+    margin-right: 60px;
     color: #444;
 }
 
 .sub-casual h2{
     font-size: 16px;
     margin-top: 150px;
-    margin-left: 100px;
+    margin-right: 60px;
     position: absolute;
 }
 
@@ -165,12 +166,12 @@ section{
     font-size: 16px;
     display: flex;
     position: absolute;
-    margin-left: 64px;
+    margin-left: 44px;
     margin-top: -45px;
 }
 .sofisticada h1{
     font-size: 25px;
-    margin-left: 60px;
+    margin-left: 40px;
     margin-top: 70px;
     position: absolute;
     color: #444;
@@ -420,12 +421,12 @@ section{
     font-size: 16px;
     display: flex;
     position: absolute;
-    margin-left: 64px;
+    margin-left: 44px;
     margin-top: -45px;
 }
 .romantica h1{
     font-size: 25px;
-    margin-left: 60px;
+    margin-left: 40px;
     margin-top: 40px;
     position: absolute;
     color: #444;
@@ -449,14 +450,14 @@ section{
 .casual h1{
     font-size: 25px;
     margin-top: 175px;
-    margin-left: 100px;
+    margin-left: 80px;
     color: #444;
 }
 
 .sub-casual h2{
     font-size: 16px;
     margin-top: 150px;
-    margin-left: 100px;
+    margin-left: 80px;
     position: absolute;
 }
 
@@ -485,12 +486,12 @@ section{
     font-size: 16px;
     display: flex;
     position: absolute;
-    margin-left: 100px;
+    margin-left: 42px;
     margin-top: -45px;
 }
 .esportivo h1{
     font-size: 25px;
-    margin-left: 100px;
+    margin-left: 40px;
     margin-top: 60px;
     position: absolute;
     color: #444;
