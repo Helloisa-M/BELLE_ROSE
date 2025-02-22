@@ -26,7 +26,7 @@
 
 .navbar ul li a{
     text-decoration: none;
-    color: #444;
+    color: #000000;
     font-size: 20px;
     font-weight: bold;
     transition: color 0.3 ease;
@@ -114,10 +114,9 @@ body{
     margin-right: 400px;
     margin-left: 100px;
     font-weight: bold;
-}
+    text-align: justify;
+    line-height: 1.6;
 
-#muda p{
-    margin: 0px;
 }
 
 .titulo{
@@ -128,7 +127,7 @@ body{
     text-align: center;
     height: 50px;
     border: 1px solid black;
-    background-color: #FFF5F5;
+    background-color: #efc3acd4;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.644);
 }
 
@@ -149,12 +148,14 @@ body{
 
 .abaixo{
     display: block;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 50px;
     font-size: 30px;
     color: #707070;
     font-weight: bold;
-
+    line-height: 1.8;
+    text-align: justify;
+    padding-right: 50px;
 }
 
 .abaixo p{
@@ -189,17 +190,19 @@ body{
     margin-top: 30px;
     background-color: #FFF5F5;
     border: 1px solid black;
-    margin-left: 260px;
-    margin-right: 290px;
+    margin-left: 160px;
+    margin-right: 190px;
 
 }
 
 .tbm{
     display: block;
     margin-top: 50px;
-    margin-left: 15px;
-
+    margin-left: 15px;
+    text-align: justify;
+    line-height: 2.5;
 }
+
 .tbm h2{
     margin-top: -10px;
 }
@@ -211,14 +214,16 @@ body{
     background-color: #FFF5F5;
     border: 1px solid black;
     margin-bottom: 30px;
-    margin-left: 260px;
-    margin-right: 290px;
+    margin-left: 160px;
+    margin-right: 190px;
 }
 
 .nutri{
     display: block;
     margin-top: 50px;
-    margin-left: 15px;
+    margin-left: 15px;
+    text-align: justify;
+    line-height: 2.5;
 }
 
 .nutri h2{
@@ -233,101 +238,20 @@ body{
     background-color: #FFF5F5;
     border: 1px solid black;
     margin-bottom: 30px;
-    margin-left: 260px;
-    margin-right: 290px;
+    margin-left: 160px;
+    margin-right: 190px;
 }
 
 .gato{
     display: block;
     margin-top: 50px;
     margin-left: 15px;
-
+    text-align: justify;
+    line-height: 2.5;
+    
 }
 
 .gato h2{
-    margin-top: -10px;
+    margin-top: -10px;
 
-}
-
-@media screen and (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        padding: 10px 0;
-    }
-
-    .navbar ul li {
-        margin: 10px 0;
-    }
-
-    .frase {
-        flex-direction: column;
-        gap: 20px;
-        justify-content: center;
-        align-items: center;
-        font-size: 24px;
-    }
-
-    .lado {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .vidasaudavel, .nutricao, .mente {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .tbm, .nutri, .gato {
-        margin-left: 0;
-    }
-
-    .titulo {
-        width: 90%;
-        padding: 10px;
-    }
-
-    .rodape {
-        padding: 10px;
-        text-align: center;
-    }
-
-    .rodape button {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .frase {
-        font-size: 20px;
-        gap: 10px;
-    }
-
-    .vidasaudavel, .nutricao, .mente {
-        gap: 20px;
-    }
-
-    .navbar ul li a {
-        font-size: 16px;
-    }
-
-    .titulo {
-        width: 100%;
-        padding: 15px;
-    }
-
-    .lado {
-        gap: 20px;
-    }
-
-    .checklist {
-        padding: 20px;
-    }
-
-    .bife, .dife {
-        margin-left: 0;
-    }
-
-    .gato, .tbm, .nutri {
-        margin-left: 0;
-    }
 }
