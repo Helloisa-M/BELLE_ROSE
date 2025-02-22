@@ -60,29 +60,38 @@ a{
     padding: 30px;
     background-color: #ffdef4;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
    
 }
+.intro{
+    display: flex;
+    flex-direction: column;
+}
 .introducao h2{
-    font-size: 50px;
-    margin-top: 100px;
+    font-size: 40px;
     float: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 40px;
     margin-right: 40px;
-    width: 1000px;
+    width: 900px;
     text-align: center;
 }
 .introducao img{
     width: 400px;
     height: 300px;
+    float: right;
 }
 .introducao p{
     font-family: 'Times New Roman', Times, serif;
     float: left;
-    align-items: baseline;
+    justify-content: flex-start;
     margin-top: 60px;
     position: relative;
-    left: 160px;
+    text-align: left;
+    margin-left: 120px;
+
+    
 }
 .texto{
     background-color: #c5c1c1c4;
@@ -92,6 +101,7 @@ a{
     align-content: center;
     text-align: justify;
     box-shadow: 5px 5px 5px rgba(66, 65, 65, 0.795) ;
+    width: 70%;
 }
 .texto p {
 margin-left: 50px;

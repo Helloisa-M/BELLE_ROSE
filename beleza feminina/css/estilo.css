@@ -130,7 +130,7 @@ section li{
     justify-content: end;
     align-items: center;
     gap: 300px;
-    background-color: #ebd5de;
+    background-color: #ffdef4;
     font-size: 50px;
     height: 100%;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.644);
@@ -193,7 +193,7 @@ section li{
 }
 
 .linha{
-        background-color: #ebd5de;
+        background-color: #ffdef4;
 
 }
 
@@ -251,8 +251,15 @@ section .final1{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    
     gap: 200px;
 
 
+}
+.redes img{
+    width: 35px;
+    height: 25px;
+}
+.redes{
+    margin-left: 30px;
 }
