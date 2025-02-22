@@ -59,6 +59,220 @@ a{
 
 
 
+.galeria{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.galeria img:hover{
+    box-shadow: 0 0 2px 1px rgba(174, 0, 186, 0.5);
+}
+.força img{
+    width: 290px;
+    height: 250px;
+}
+.força h1{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.força p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+.liberdade img{
+    width: 290px;
+    height: 250px;
+}
+.liberdade h1{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.liberdade p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+
+.moda img{
+    width: 290px;
+    height: 250px;
+}
+.moda h1{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.moda p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+
+.entretenimento img{
+    width: 290px;
+    height: 250px;
+}
+.entretenimento h1{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.entretenimento p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+
+.galeria2{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.galeria2 img:hover{
+    box-shadow: 0 0 2px 1px rgba(174, 0, 186, 0.5);
+}
+
+
+
+.moda2 img{
+    width: 290px;
+    height: 250px;
+}
+.moda2 h1{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.moda2 p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+
+.autenticidade img{
+    width: 290px;
+    height: 250px;
+}
+.autenticidade h1{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.autenticidade p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+
+.auto img{
+    width: 290px;
+    height: 250px;
+}
+.auto h1{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.auto p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+
+.autoc img{
+    width: 290px;
+    height: 250px;
+}
+.autoc h1{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.autoc p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+
+
+.ut section{
+    background-color: #fff5f5;
+    width: 100%;
+    height: 578px;
+    padding-top: 5px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px rgba(87, 83, 83, 0.5);
+}
+
+
+
+.artigos{
+    background-color: #F3CCC3;
+    width: 70%;
+    height: 5px;
+    margin: 80px auto;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px rgba(87, 83, 83, 0.5);
+}
+
+.artigos h1{
+    text-align: center;
+    font-size: 30px;
+    color: #1e1c1c;
+}
+
+.ut{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.ut section{
+    width: 275px;
+    height: 350px;
+    padding-top: 20px;
+}
+
+.ut img{
+    width: 200px;
+    height: 200px;
+}
+
+.ut section:hover{
+    box-shadow: 0 0 2px 1px rgb(174, 0, 186, 0.5);
+}
+.ut h1{
+    font-size: 14px;
+}
+
+.ut h2{
+    font-size: 18px;
+}
+.filme1{
+    margin-left: 35px;
+}
+.unha1{
+    margin-left: 35px;
+}
+.livros1{
+    margin-left: 35px;
+}
+ 
+
+
+
+
+
+
 
 
 
