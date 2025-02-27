@@ -55,15 +55,32 @@ a{
     text-decoration: none;
 }
 
+.abordados{
+    background-color: #F3CCC3;
+    width: 70%;
+    height: 5px;
+    margin: 80px auto;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px rgba(87, 83, 83, 0.5);
+}
 
+.abordados h1{
+    text-align: center;
+    font-size: 30px;
+    color: #1e1c1c;
+}
 
 
 
 .galeria{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 100px;
     gap: 20px;
+    
 }
 
 .galeria img:hover{
@@ -218,6 +235,8 @@ a{
     width: 70%;
     height: 5px;
     margin: 80px auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding-bottom: 70px;
     display: flex;
     justify-content: center;
@@ -235,7 +254,7 @@ a{
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 150px;
 }
 .ut section{
     width: 275px;
@@ -274,8 +293,31 @@ a{
 
 
 
+
+
+
+
+.section_form{
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    margin-bottom: 100px;
+    width: 1000px;
+    background: white;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0);
+    text-align: center;
+    height: 500px;
+
+    
+}
+
+
+
 .frase{
-    background-color: #ffdef4;
+    background-color: #fff5f5;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -286,12 +328,15 @@ a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: 1px solid black;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+    margin-bottom: 60px;
 
+}
+.frase img{
+    margin-top: 5px;
 }
 
 #muda{
-    margin-right: 400px;
-    margin-left: 100px;
+    margin-right: 230px;
     font-weight: bold;
 }
 
@@ -302,25 +347,33 @@ a{
 .conhecimento{
     display: flex;
     justify-content: space-between;
-    background-color: #ffdef4;
+    background-color: #fff5f5;
     margin-top: 25px;
     font-size: 22px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #575656;
     border: 1px solid black;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+    margin-bottom: 100px;
 
 }
 
 .conhecimento p{
     margin-right: 80px;
-    margin-top: 120px;
+    margin-top: 160px;
 }
 
 .conhecimento span{
     color:#B827B6;
 }
+
     
+
+
+
+
+
+
 
 button {
     background-color: black;
